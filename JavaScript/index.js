@@ -1,7 +1,7 @@
 function countSheeps(list) { 
 let count = 0;
     for (let index=0; index < list.length ; index++) {
-            if (list[index] != null && value) {  
+            if (list[index] === true) {  
                 count++;
             }
         }
